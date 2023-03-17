@@ -1,0 +1,128 @@
+/* Edição do Cabeçalho e Menu */
+
+#logo-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho {
+    background: #302D31;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    align-items: center;
+    color: #fff;
+    font-size: 0.7em;
+    font-weight: 100;
+}
+
+.logo img{
+    width: 60px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 50px;
+    background: #fff;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.nav-bar-menu ul{
+    list-style: none;
+    float: left;
+    margin-right: 80px;
+
+}
+
+ul li{
+    float: left;
+}
+
+li a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    color: #302D31;
+    font-weight: bold;
+    transition: 1s;
+}
+
+/* Fim Edição do Cabeçalho e Menu */
+
+/* Edição dos botões */
+
+li a:hover {
+    background: #000;
+    color: #fff;
+}
+
+.info-content input:hover {
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.info-content .black:hover {
+    background: #DBE8EC;
+    color: #000;
+}
+
+/* Fim Edição dos botões */
+
+#content-area img {
+    width: 330px;
+    margin-bottom: -35px;
+}
+
+.image-content {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+#content-area {
+    display: flex;
+    align-items: center;
+    height: 85vh;
+}
+
+.info-content {
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.info-content h1 {
+    font-size: 2.2em;
+    font-family: Tahoma;
+    font-weight: 100;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.info-content h4 {
+    font-size: 0.8em;
+    font-family: Tahoma;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.info-content input {
+    width: 160px;
+    height: 40px;
+    border: 2px solid #000;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    background: #DBE8EC;
+    transition: 0.8s;
+}
+
+.info-content .black {
+    background: #000;
+    color: #fff;
+}
